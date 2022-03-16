@@ -8,4 +8,6 @@ for i in range(n):
     if(min_num > result):
         result = min_num
 
+    print(result)
+
 print(result)
