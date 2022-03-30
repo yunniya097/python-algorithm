@@ -9,4 +9,4 @@ for i in range(1, n+1):
         d[i] = sum + 1
     sum += d[i]
 
-print(d[n])
+print(d[n]%796796)
