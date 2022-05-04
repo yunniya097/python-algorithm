@@ -4,7 +4,7 @@ n = int(input())
 date = [] # 상담 진행 일수를 저장하는 리스트
 money = [] # 금액을 저장하는 리스트
 
-d = [0] * 5
+d = [0] * 1500002
 
 for i in range(n):  # date와 money에 각각의 입력값 저장
     c, m = map(int, sys.stdin.readline().split())
