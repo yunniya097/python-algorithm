@@ -1,3 +1,4 @@
+# 모험가 길드
 n = int(input())
 explorer = list(map(int, input().split()))
 
