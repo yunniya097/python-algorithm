@@ -9,10 +9,14 @@ for i in range(len(s)):
         cnt += 1
     else:
         break
+if cnt != 0:
+    for j in range(cnt):
+        result += int(s.pop(0))
+    s.append(str(result))
+    string = ''.join(s)
+else:
+    string = ''.join(s)
 
-for j in range(cnt):
-    result += int(s.pop(0))
-
-s.append(str(result))
-string = ''.join(s)
 print(string)
+
+# 문자열만 들어왔을 때 0이 안붙게 하기
